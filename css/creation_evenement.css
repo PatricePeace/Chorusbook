@@ -1,0 +1,53 @@
+.list_oeuvre
+{
+    list-style: none;
+    width: 250px;
+    border: 1px solid;
+    float: left;
+    overflow: auto;
+    height: 200px;
+}
+
+#add_oeuvre
+{
+    position: relative;
+    right: 240px;
+    top: 80px;
+}
+
+
+#back_oeuvre
+{
+    position: relative;
+    right: 274px;
+    top: 135px;
+}
+
+#evt_oeuvres
+{
+    position: relative;
+    left: 150px;
+}
+
+
+.oeuvre
+{
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+}
+
+.oeuvre:hover
+{
+    background-color: #DB9E36;
+}
+
+.oeuvre:first-child
+{
+    margin-top: 3px;
+}
+
+.oeuvre:last-child
+{
+    margin-bottom: 3px;
+}

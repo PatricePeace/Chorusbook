@@ -1,0 +1,51 @@
+.oeuvre_programme
+{
+    list-style: none;
+    padding: 1px;
+    width: 100%;
+}
+
+div.style
+{
+    float: left;
+    padding: 30px;
+    padding-right: 100px;
+}
+
+.filtre
+{
+    width: 30%;
+}
+
+.voyant_rouge
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    float: right;
+    position: relative;
+    bottom: 14px;
+    left: 20px;
+}
+
+.voyant_jaune
+{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    float: right;
+    position: relative;
+    bottom: 14px;
+    left: 20px;
+}
+
+.voyant_vert
+{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    float: right;
+    position: relative;
+    bottom: 14px;
+    left: 20px;
+}
